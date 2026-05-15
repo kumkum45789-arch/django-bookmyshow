@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-hx30g)ti3m@a&%)vwvelu#j2lrq!04o2#%glr5hsi4kncs+c06
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -92,7 +92,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] =dj_database_url.parse('postgresql://django_bookmyshow_wiys_user:aGbXHcLvDuqbqI0zdS7fOIteU6NRzGbB@dpg-d83b1ijtqb8s73dhel10-a.virginia-postgres.render.com/django_bookmyshow_wiys')
+DATABASES ['default'] = dj_database_url.parse('postgresql://django_bookmyshow_wiys_user:aGbXHcLvDuqbqI0zdS7fOIteU6NRzGbB@dpg-d83b1ijtqb8s73dhel10-a.virginia-postgres.render.com/django_bookmyshow_wiys')
 
 
 
