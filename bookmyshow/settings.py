@@ -94,8 +94,6 @@ DATABASES = {
 
 DATABASES['default'] = dj_database_url.parse('postgresql://django_bookmyshow_wiys_user:aGbXHcLvDuqbqI0zdS7fOIteU6NRzGbB@dpg-d83b1ijtqb8s73dhel10-a.virginia-postgres.render.com/django_bookmyshow_wiys')
 
-
-
 # postgresql://django_bookmyshow_wiys_user:aGbXHcLvDuqbqI0zdS7fOIteU6NRzGbB@dpg-d83b1ijtqb8s73dhel10-a.virginia-postgres.render.com/django_bookmyshow_wiys
 
 # Password validation
